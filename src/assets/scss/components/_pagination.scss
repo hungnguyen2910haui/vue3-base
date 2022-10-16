@@ -1,0 +1,50 @@
+.pagination {
+  display: inline-block;
+  box-shadow: 0 0.3rem 0.6rem $color-grey-silver;
+  border-radius: 0.4rem;
+
+  a {
+    width: 4rem;
+    float: left;
+    padding: 0.2rem;
+    color: $color-grey-silver;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .active {
+    color: $color-danger;
+  }
+
+  .inactive {
+    background-color: $color-grey-gainsboro;
+    color: $color-grey-silver;
+  }
+
+  .page-number:hover:not(.active) {
+    background-color: $color-grey-gainsboro;
+  }
+
+  .next,
+  .prev {
+    width: 4rem;
+
+    &:hover {
+      background-color: $color-grey-gainsboro;
+    }
+  }
+
+  .prev {
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: solid 0.1rem $color-grey-gainsboro;
+  }
+
+  .next {
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-left: solid 0.1rem $color-grey-gainsboro;
+  }
+
+  .v-icon {
+    padding-bottom: 0.2rem;
+  }
+}

@@ -1,0 +1,13 @@
+//Cấu trúc thư mục (Pattern Architecture)
+//https://viblo.asia/p/cau-truc-files-trong-cac-du-an-su-dung-sass-voi-7-1-pattern-architecture-aWj53LOQK6m
+//https://www.youtube.com/watch?v=xer85C1vOh4&list=PL33lvabfss1wstoZNI8szds9s0ESVbuqs&index=18
+
+@import "./abstracts/variable";
+@import "./abstracts/mixin";
+@import "./base/animation";
+@import "./base/utinitil";
+@import "./base/typography";
+@import "./base/base";
+@import "./layouts/grid";
+@import "./pages/home";
+@import "./components/button";
